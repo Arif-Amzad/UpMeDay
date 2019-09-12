@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD15C5BD23144E170086F569 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD15C5BC23144E170086F569 /* SwiftyJSON.framework */; };
+		DD15C5BF23144E390086F569 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD15C5BE23144E390086F569 /* Alamofire.framework */; };
+		DD15C5C123144E3D0086F569 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD15C5C023144E3D0086F569 /* SVProgressHUD.framework */; };
+		DD15C5C3231466DC0086F569 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15C5C2231466DC0086F569 /* WeatherDataModel.swift */; };
+		DD1678632316EF0D00B9B201 /* LocationSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1678622316EF0D00B9B201 /* LocationSearchViewController.swift */; };
+		DD6FF2532313ED300003F48E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6FF2522313ED300003F48E /* AppDelegate.swift */; };
+		DD6FF2552313ED300003F48E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6FF2542313ED300003F48E /* ViewController.swift */; };
+		DD6FF2582313ED300003F48E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6FF2562313ED300003F48E /* Main.storyboard */; };
+		DD6FF25D2313ED310003F48E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6FF25B2313ED310003F48E /* LaunchScreen.storyboard */; };
+		DD6FF2652313F34D0003F48E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6FF2642313F34D0003F48E /* Assets.xcassets */; };
+		EA95270880FE4405C2DD3789 /* Pods_UpMeDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F86F6D114CBED3FE2275DA /* Pods_UpMeDay.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		229C752009BF17587790B23B /* Pods-UpMeDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpMeDay.debug.xcconfig"; path = "Target Support Files/Pods-UpMeDay/Pods-UpMeDay.debug.xcconfig"; sourceTree = "<group>"; };
+		D9F86F6D114CBED3FE2275DA /* Pods_UpMeDay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UpMeDay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD15C5BC23144E170086F569 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD15C5BE23144E390086F569 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD15C5C023144E3D0086F569 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD15C5C2231466DC0086F569 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
+		DD1678622316EF0D00B9B201 /* LocationSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewController.swift; sourceTree = "<group>"; };
+		DD6FF24F2313ED300003F48E /* UpMeDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpMeDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6FF2522313ED300003F48E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD6FF2542313ED300003F48E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD6FF2572313ED300003F48E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD6FF25C2313ED310003F48E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD6FF25E2313ED310003F48E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6FF2642313F34D0003F48E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED45E839FA1BB563457896FA /* Pods-UpMeDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpMeDay.release.xcconfig"; path = "Target Support Files/Pods-UpMeDay/Pods-UpMeDay.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD6FF24C2313ED300003F48E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD15C5C123144E3D0086F569 /* SVProgressHUD.framework in Frameworks */,
+				DD15C5BF23144E390086F569 /* Alamofire.framework in Frameworks */,
+				DD15C5BD23144E170086F569 /* SwiftyJSON.framework in Frameworks */,
+				EA95270880FE4405C2DD3789 /* Pods_UpMeDay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BE7DEED130D92EFA32CA0FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD15C5C023144E3D0086F569 /* SVProgressHUD.framework */,
+				DD15C5BE23144E390086F569 /* Alamofire.framework */,
+				DD15C5BC23144E170086F569 /* SwiftyJSON.framework */,
+				D9F86F6D114CBED3FE2275DA /* Pods_UpMeDay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69E357219679A0568ED0F526 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				229C752009BF17587790B23B /* Pods-UpMeDay.debug.xcconfig */,
+				ED45E839FA1BB563457896FA /* Pods-UpMeDay.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD6FF2462313ED300003F48E = {
+			isa = PBXGroup;
+			children = (
+				DD6FF2512313ED300003F48E /* UpMeDay */,
+				DD6FF2502313ED300003F48E /* Products */,
+				69E357219679A0568ED0F526 /* Pods */,
+				2BE7DEED130D92EFA32CA0FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD6FF2502313ED300003F48E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD6FF24F2313ED300003F48E /* UpMeDay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD6FF2512313ED300003F48E /* UpMeDay */ = {
+			isa = PBXGroup;
+			children = (
+				DD6FF2642313F34D0003F48E /* Assets.xcassets */,
+				DD6FF2522313ED300003F48E /* AppDelegate.swift */,
+				DD6FF2542313ED300003F48E /* ViewController.swift */,
+				DD1678622316EF0D00B9B201 /* LocationSearchViewController.swift */,
+				DD6FF2562313ED300003F48E /* Main.storyboard */,
+				DD6FF25B2313ED310003F48E /* LaunchScreen.storyboard */,
+				DD6FF25E2313ED310003F48E /* Info.plist */,
+				DD15C5C2231466DC0086F569 /* WeatherDataModel.swift */,
+			);
+			path = UpMeDay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD6FF24E2313ED300003F48E /* UpMeDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6FF2612313ED310003F48E /* Build configuration list for PBXNativeTarget "UpMeDay" */;
+			buildPhases = (
+				AF9EE4453778A068EFA2A961 /* [CP] Check Pods Manifest.lock */,
+				DD6FF24B2313ED300003F48E /* Sources */,
+				DD6FF24C2313ED300003F48E /* Frameworks */,
+				DD6FF24D2313ED300003F48E /* Resources */,
+				12B0E80D6C78621302E40EF5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UpMeDay;
+			productName = UpMeDay;
+			productReference = DD6FF24F2313ED300003F48E /* UpMeDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD6FF2472313ED300003F48E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "MD. Amzad Hossain Arif";
+				TargetAttributes = {
+					DD6FF24E2313ED300003F48E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = DD6FF24A2313ED300003F48E /* Build configuration list for PBXProject "UpMeDay" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD6FF2462313ED300003F48E;
+			productRefGroup = DD6FF2502313ED300003F48E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD6FF24E2313ED300003F48E /* UpMeDay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD6FF24D2313ED300003F48E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6FF25D2313ED310003F48E /* LaunchScreen.storyboard in Resources */,
+				DD6FF2652313F34D0003F48E /* Assets.xcassets in Resources */,
+				DD6FF2582313ED300003F48E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12B0E80D6C78621302E40EF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UpMeDay/Pods-UpMeDay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UpMeDay/Pods-UpMeDay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UpMeDay/Pods-UpMeDay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF9EE4453778A068EFA2A961 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UpMeDay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD6FF24B2313ED300003F48E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6FF2552313ED300003F48E /* ViewController.swift in Sources */,
+				DD6FF2532313ED300003F48E /* AppDelegate.swift in Sources */,
+				DD1678632316EF0D00B9B201 /* LocationSearchViewController.swift in Sources */,
+				DD15C5C3231466DC0086F569 /* WeatherDataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD6FF2562313ED300003F48E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD6FF2572313ED300003F48E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD6FF25B2313ED310003F48E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD6FF25C2313ED310003F48E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD6FF25F2313ED310003F48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD6FF2602313ED310003F48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD6FF2622313ED310003F48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 229C752009BF17587790B23B /* Pods-UpMeDay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UpMeDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arifamzad11.UpMeDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD6FF2632313ED310003F48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED45E839FA1BB563457896FA /* Pods-UpMeDay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UpMeDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arifamzad11.UpMeDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD6FF24A2313ED300003F48E /* Build configuration list for PBXProject "UpMeDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6FF25F2313ED310003F48E /* Debug */,
+				DD6FF2602313ED310003F48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6FF2612313ED310003F48E /* Build configuration list for PBXNativeTarget "UpMeDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6FF2622313ED310003F48E /* Debug */,
+				DD6FF2632313ED310003F48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD6FF2472313ED300003F48E /* Project object */;
+}

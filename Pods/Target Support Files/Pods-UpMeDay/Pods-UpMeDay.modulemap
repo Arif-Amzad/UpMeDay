@@ -1,0 +1,6 @@
+framework module Pods_UpMeDay {
+  umbrella header "Pods-UpMeDay-umbrella.h"
+
+  export *
+  module * { export * }
+}
